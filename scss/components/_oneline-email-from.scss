@@ -1,0 +1,41 @@
+.oneline__email-box {
+  margin: auto;
+  display: flex;
+  background-color: #fff;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  border-radius: 34343rem;
+}
+
+.oneline__email--input {
+  width: 60rem;
+  font-size: 3rem;
+
+  &,
+  &:focus {
+    background-color: inherit;
+    border: none;
+    outline: none;
+  }
+  &::placeholder {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0000008e;
+    text-transform: capitalize;
+  }
+}
+
+.oneline__submit-btn {
+  &,
+  &:active {
+    cursor: pointer;
+    display: block;
+    background-color: $color-purple--light;
+    color: #fff;
+    font-size: 3rem;
+    padding: 2rem 2.4rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+  }
+}

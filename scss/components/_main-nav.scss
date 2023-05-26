@@ -1,0 +1,22 @@
+.main-nav {
+  width: 100%;
+  padding: 2rem 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  & .main-menu {
+    margin-left: 4rem;
+    margin-right: auto;
+  }
+
+  &__logo {
+    &,
+    &:link,
+    &:visited {
+      font-size: 3rem;
+      color: $text-color-white;
+      text-decoration: none;
+      font-family: $font-handwriting;
+    }
+  }
+}

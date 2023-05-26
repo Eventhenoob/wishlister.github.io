@@ -1,0 +1,43 @@
+.more-features {
+  width: 100%;
+  & > .heading__three {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__list {
+    width: 100%;
+    list-style: none;
+  }
+
+  &__item {
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__feature {
+    width: 100%;
+    display: flex;
+    position: relative;
+    & > * {
+      flex-basis: 50%;
+    }
+  }
+
+  &__pera {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    padding-right: 10%;
+  }
+}

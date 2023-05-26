@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+body {
+  @include stopselect;
+  overflow-x: hidden;
+  font-family: $font-main;
+  background-color: #ffeeff;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}

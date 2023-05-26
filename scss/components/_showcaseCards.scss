@@ -1,0 +1,56 @@
+.showcase__container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80%;
+  // justify-content: center;
+  align-items: center;
+  overflow: visible;
+  height: 68rem;
+}
+.showcase__card {
+  box-shadow: 14px 20px 19px -6px rgba(0, 0, 0, 0.41);
+  transition: height 0.3s;
+
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  width: 35rem;
+  height: 63rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+    url("../imgs/portraits/showcase-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &:not(:last-child) {
+    margin-right: 3rem;
+  }
+  &--1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+      url("../imgs/portraits/showcase-1.jpg");
+  }
+  &--2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+      url("../imgs/portraits/showcase-2.jpg");
+  }
+  &--3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+      url("../imgs/portraits/showcase-3.jpg");
+  }
+  &--4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+      url("../imgs/portraits/showcase-4.jpg");
+  }
+  &--5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.32)),
+      url("../imgs/portraits/showcase-5.jpg");
+  }
+  &:hover {
+    width: 35rem;
+    height: 68rem;
+    justify-self: center;
+    // align-self: flex-start;
+  }
+}

@@ -1,0 +1,24 @@
+// ////////////// ******* EXTERNAL IMPORTS ****** ///////////////
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&family=Pacifico&display=swap");
+
+// ///////////// ****** INTERNAL IMPORTS ****** ///////////////
+// main navigation
+@import "./utilities/fonts";
+@import "./utilities/halper_mixins";
+@import "./utilities/colors";
+@import "./utilities/helper";
+
+@import "./base/basic";
+@import "./base/typography";
+
+@import "./components/main-menu";
+@import "./components/main-nav";
+@import "./components/train";
+@import "./components/cards";
+@import "./components/dynamic_tabs";
+@import "./components/showcaseCards";
+@import "./components/more-featues";
+@import "./components/oneline-email-from";
+
+@import "./layouts/home.scss";
